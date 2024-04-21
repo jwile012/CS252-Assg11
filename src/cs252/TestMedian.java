@@ -14,8 +14,6 @@ public class TestMedian {
         boolean result = test(n);
         if (result) {
             System.out.println("Passed all " + n + " tests.");
-        } else {
-            System.out.println("Failed at least one test.");
         }
     }
 

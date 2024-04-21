@@ -29,8 +29,7 @@ public class Median {
         Arrays.sort(sorted);
         int middle = values.length / 2;
         if (values.length % 2 == 0) {
-            // Adjusted index to middle - 1 for even-length arrays
-            return 0.5 * (sorted[middle - 1] + sorted[middle]);
+            return 0.5 * (sorted[middle] + sorted[middle+1]);
         } else {
             return sorted[middle];
         }

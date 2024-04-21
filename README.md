@@ -2,4 +2,4 @@
 
 A small Java project.
 
-* Ths repository belongs to cs_jwile012@odu.edu
+* Ths repository belongs to jwile012@odu.edu
